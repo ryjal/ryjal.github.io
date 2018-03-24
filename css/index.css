@@ -1,0 +1,39 @@
+html, body {
+	background-color: #FDEEF4;
+	font-family: 'Lora', serif;
+	overflow-x: hidden;
+	padding: 0 5%;
+	line-height: 2em;
+}
+
+.pikachu-banner {
+	margin: 50px 0px;
+}
+
+.name {
+	padding-top: 6%;
+	margin: 0% -20%;
+}
+
+@media screen and (max-width: 750px) {
+	.name {
+		margin: 0%;
+	}
+}
+
+.name h1 {
+	font-size: 36pt;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.memory-image img {
+	display: block;
+	margin: 5% auto;
+	max-height: 70vh;
+	max-width: 60vw;
+}
+
+.message-body {
+	font-size: 12pt;
+}
